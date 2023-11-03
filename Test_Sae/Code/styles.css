@@ -1,0 +1,185 @@
+body {
+    font-family: 'Russo One', sans-serif;
+    font-weight: lighter;
+    background-image: url('/Test_Sae/Images/splatoon3_pattern.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 80%;
+    margin: 0 auto; /* Ajout de cette ligne pour centrer le contenu */
+    justify-content: center;
+    align-content: center;
+    background-color: #fff;
+}
+.logo {
+    width: 75px;
+    height: auto;
+    position: absolute;
+    top: 10px; /* Ajustez la valeur selon vos besoins */
+    left: 10px; 
+}
+
+header {
+    background-color: #513dac;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    height: 384px; /* Ajustez la hauteur selon vos besoins */
+    position: relative;
+}
+
+.menu{
+    border: 3px solid rgb(220, 198, 0);
+    border-radius: 15px;
+    padding: 0.5%;
+    transition: 0.2s;
+}
+
+.menu:hover{
+    background-color:#3a2b7e;
+    border: 3px solid rgb(167, 151, 0);
+    transition: 0.2s;
+}
+
+nav{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Assurez-vous que la barre de navigation est au-dessus de tout le contenu */
+    background-color: #483796;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: #483796;
+    padding: 2%;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer img{
+    width: 30px; 
+    height: auto; 
+    margin: 5px; 
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    background-color: #513dac;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+h1, h2 {
+    font-family: 'Russo One', sans-serif;
+    font-weight: lighter;
+}
+.titre_page{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    top: 0;
+}
+.titre_page img {
+    position: static;
+}
+h1 {
+    font-size: 48px;
+    color: #eee;
+    padding: 1%;
+    border-radius: 25px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #513dac;
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+    color: #513dac;
+}
+
+
+.social_icons{
+    list-style: none;
+}
+
+.page{
+    display: flex;
+    justify-content: space-between; /* Pour pousser .actualites à droite */
+}
+
+.actualites {
+    max-width: 30%; /* Ajustez la largeur selon vos besoins */
+    margin-right: 1%;
+}
+
+.event_splat{
+    background-image: url('/Test_Sae/Images/bg_header_sae.gif');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+    border: #2d2d2d00;
+    color: #ffffff;
+}
+.titre_event{
+    background-color: #2d2d2d86;
+    padding: 3%;
+    border-radius: 15px;
+}
+.event_splat img{
+    width: 50%;
+    height: auto;
+}
+.event_splat:hover{
+    transition: 0.2s;
+    cursor: url('/Test_Sae/Images/splatoon_mouse_cursor.png'), auto;
+    scale: 105%;
+}
+.span1{
+    font-size: xx-large;
+}
